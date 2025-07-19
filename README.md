@@ -53,16 +53,16 @@ The computer picks a number and the player tries to guess it in minimum tries.
 ## 🚀 How to Run
 
 ### Step 1: Clone the repository  
-git clone https://github.com/your-username/your-repo-name.git
+git clone https://github.com/mdpatel007/Python-project.git
 cd Python-project
 
 ### Step 2: (Optional) Create and activate virtual environment
 python -m venv venv
 venv\Scripts\activate   # For Windows
 
-Step 3: Install required packages for Jarvis
+### Step 3: Install required packages for Jarvis
 pip install -r requirements.txt
 
-Step 4: Run any project
+### Step 4: Run any project
 cd "Python mega project-1 Jarvis"
 python client.py
