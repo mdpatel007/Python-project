@@ -20,6 +20,29 @@ A smart voice assistant built with Python, Gemini AI API, and speech recognition
 
 ---
 
+### 2. 🤖 Auto-Reply AI Chatbot (Funny Roast Bot)
+A fun project that reads WhatsApp-like chat history from screen, analyzes the last message, and replies with a Hinglish-style roast using Gemini AI.
+
+**Features:**
+- Detects new messages from a specific person
+- Copies chat history automatically using `pyautogui`
+- Sends the last message to Gemini API
+- Generates a Hinglish roast (funny but non-toxic)
+- Types and sends the reply automatically
+
+**Tech Stack:**  
+`Python`, `pyautogui`, `pyperclip`, `google.generativeai`, `time`
+
+**How It Works:**
+- Selects chat text area using mouse automation
+- Copies entire conversation using clipboard
+- Checks if the last message is from the target friend
+- Sends that message to Gemini API with a roasting prompt
+- Types the AI-generated roast like a real human and hits Enter
+
+---
+
+
 ### 2. 🎮 Snake, Water, Gun Game – Python CLI Fun
 A terminal-based version of the classic game with simple logic and score tracking.
 
