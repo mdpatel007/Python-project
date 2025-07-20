@@ -40,7 +40,7 @@ A fun project that reads WhatsApp-like chat history from screen, analyzes the la
 **Tech Stack:**  
 `Python`, `pyautogui`, `pyperclip`, `google.generativeai`, `time`
 
-**How It Works:**
+#### 🔄 How It Works
 - Selects chat text area using mouse automation
 - Copies entire conversation using clipboard
 - Checks if the last message is from the target friend
