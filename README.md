@@ -21,7 +21,7 @@ A smart voice assistant built with Python, Gemini AI API, and speech recognition
 ---
 
 ### 2. 🤖 Auto-Reply AI Chatbot (Funny Roast Bot)
-A fun project that reads WhatsApp-like chat history from screen, analyzes the last message, and replies with a Hinglish-style roast using Gemini AI.
+A fun project that reads WhatsApp-like chat history from screen, analyzes the last message, and replies with a Hindi/English-style roast using Gemini AI.
 
 **Features:**
 - Detects new messages from a specific person
