@@ -1,6 +1,6 @@
 # 🧠 Python Mega Project Collection – Beginner to Smart AI Assistant
 
-This repository contains 4 beginner-to-intermediate level Python projects to showcase foundational coding, logic building, and smart AI integration skills.
+This repository contains 5 beginner-to-intermediate level Python projects to showcase foundational coding, logic building, and smart AI integration skills.
 
 ---
 
@@ -17,6 +17,13 @@ A smart voice assistant built with Python, Gemini AI API, and speech recognition
 
 **Tech Stack:**  
 `Python`, `speech_recognition`, `pyttsx3`, `google.generativeai`, `pyaudio`
+
+#### 🔄 How It Works
+1. **Listens to your voice** via microphone (`speech_recognition`)
+2. **Converts speech to text**
+3. **If it's a question** → sends it to Gemini API for a smart response  
+   **If it's an action** → opens website, tells time, etc.
+4. **Reads the answer out loud** using `pyttsx3`
 
 ---
 
@@ -43,7 +50,7 @@ A fun project that reads WhatsApp-like chat history from screen, analyzes the la
 ---
 
 
-### 2. 🎮 Snake, Water, Gun Game – Python CLI Fun
+### 3. 🎮 Snake, Water, Gun Game – Python CLI Fun
 A terminal-based version of the classic game with simple logic and score tracking.
 
 **Features:**
@@ -53,7 +60,7 @@ A terminal-based version of the classic game with simple logic and score trackin
 
 ---
 
-### 3. 🔐 Random Password Generator
+### 4. 🔐 Random Password Generator
 Generates strong and customizable passwords based on user preference.
 
 **Features:**
@@ -63,7 +70,7 @@ Generates strong and customizable passwords based on user preference.
 
 ---
 
-### 4. 🎯 Number Guessing Game
+### 5. 🎯 Number Guessing Game
 The computer picks a number and the player tries to guess it in minimum tries.
 
 **Features:**
